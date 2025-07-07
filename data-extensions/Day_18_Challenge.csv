@@ -1,0 +1,11 @@
+SubscriberKey,Email,FirstName,LastName,AppointmentDate,AppointmentLocation,AppointmentCode
+9083,james.bond@mi6.com,James,Bond,5/6/2023 10:10:00 AM,Halifax,5823
+5367,tony.stark@starkindustries.com,Tony,Stark,5/12/2023 11:20:00 AM,Bedford,7196
+2961,ellen.ripley@weyland.com,Ellen,Ripley,5/18/2023 12:30:00 PM,Bedford,4268
+8753,indiana.jones@marshall.edu,Indiana,Jones,5/25/2023 1:45:00 PM,Bedford,2579
+5619,harry.potter@hogwarts.edu,Harry,Potter,6/2/2023 2:10:00 PM,Halifax,7196
+9051,luke.skywalker@jediorder.org,Luke,Skywalker,6/11/2023 2:50:00 PM,Halifax,4268
+5638,marty.mcfly@hillvalley.edu,Marty,McFly,6/16/2023 3:20:00 PM,Dartmouth,7196
+5262,dorothy.gale@kansas.us,Dorothy,Gale,6/22/2023 3:50:00 PM,Dartmouth,4268
+9011,han.solo@millenniumfalcon.com,Han,Solo,6/27/2023 12:40:00 PM,Halifax,2579
+2887,forrest.gump@alabama.us,Forrest,Gump,7/1/2023 4:00:00 PM,Dartmouth,5823

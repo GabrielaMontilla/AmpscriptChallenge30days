@@ -1,0 +1,11 @@
+Email,FirstName,LastName,PaymentFrequency,PaymentAmount
+john.doe@abc.com,John,Doe,Monthly,75
+jane.doe@xyz.com,Jane,Doe,Monthly,100
+jim.smith@def.com,Jim,Smith,Annual,200
+sara.johnson@ghi.com,Sara,Johnson,Monthly,50
+mike.brown@jkl.com,Mike,Brown,Monthly,125
+amy.white@mno.com,Amy,White,Annual,150
+kevin.black@pqr.com,Kevin,Black,Monthly,75
+karen.green@stu.com,Karen,Green,Monthly,100
+chris.taylor@vwx.com,Chris,Taylor,Annual,250
+katie.jackson@yzabcorp.com,Katie,Jackson,Monthly,75

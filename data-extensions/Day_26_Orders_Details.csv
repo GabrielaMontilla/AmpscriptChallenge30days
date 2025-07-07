@@ -1,0 +1,23 @@
+OrderId,ProductName,ProductDesc,ProductQty,ProductImg,ProductPrice
+28745,Internet,Gigabit Fibe 1 Package,1,product_internet,200
+28745,Smart Home,Best Package,1,product_home,49
+51654,Internet,Fibe 500 Package,2,product_internet,50
+51654,TV,Select TV Package,1,product_tv,170
+43656,Internet,Gigabit Fibe 1 Package,1,product_internet,200
+43656,TV,Starter TV Package,1,product_tv,140
+43656,Smart Home,Best Package,1,product_home,49
+52342,TV,Digital Advantage TV Package,1,product_tv,190
+52342,Internet,Fibe 500 Package,2,product_internet,50
+53897,TV,Digital Advantage TV Package,1,product_tv,190
+51884,TV,Select TV Package,1,product_tv,170
+51884,Internet,Gigabit Fibe 1 Package,1,product_internet,200
+43656,TV,Starter TV Package,1,product_tv,140
+43656,Smart Home,Best Package,1,product_home,49
+52342,TV,Digital Advantage TV Package,1,product_tv,190
+52635,Internet,Fibe 500 Package,2,product_internet,50
+52635,TV,Digital Advantage TV Package,1,product_tv,190
+52743,Smart Home,Best Package,1,product_home,49
+52743,TV,Digital Advantage TV Package,1,product_tv,190
+52743,Internet,Fibe 500 Package,2,product_internet,50
+53976,TV,Digital Advantage TV Package,1,product_tv,190
+53976,Smart Home,Best Package,1,product_home,49

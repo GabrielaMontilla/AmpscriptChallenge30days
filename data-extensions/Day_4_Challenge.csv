@@ -1,0 +1,11 @@
+Email,FirstName,LastName,ReferralEmail
+john.doe@abc.com,John,Doe,jane.smith@defcom
+jane.doe@xyz.com,Jane,Doe,john.doe@abccom
+jim.smith@def.com,Jim,Smith,jane-doexyz.com
+sara.johnson@ghi.com,Sara,Johnson,john.doeabc.com
+mike.maci@jkl.com,Mike,Maci,jane.smith@def.com
+amy.karl@mno.com,Amy,Karl,jim.smithdef.com
+kevin.smant@pqr.com,Kevin,Smant,jane.doe@xyz.com
+karen.green@stu.com,Karen,Green,john.doeabc.com
+chris.taylor@vwx.com,Chris,Taylor,jim.smith@somecom
+katie.jackson@yzabcorp.com,Katie,Jackson,jane.smith@def.com

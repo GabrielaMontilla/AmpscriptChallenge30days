@@ -1,0 +1,13 @@
+Mileage,Name,Description,Code
+80000,Brake Check,Inspect a car's brakes to ensure that they are working properly and safely.,6435
+40000,Fluid Checking,Check the levels of various fluids in a car such as brake fluid and coolant.,5401
+60000,Fluid Checking,Check the levels of various fluids in a car such as brake fluid and coolant.,5401
+80000,Fluid Checking,Check the levels of various fluids in a car such as brake fluid and coolant.,5401
+40000,Oil Change,Replace the oil in a car's engine.,4538
+60000,Oil Change,Replace the oil in a car's engine.,4538
+80000,Oil Change,Replace the oil in a car's engine.,4538
+60000,Safety Check,Inspect various components of a car to ensure that they are functioning properly and safely.,8012
+80000,Safety Check,Inspect various components of a car to ensure that they are functioning properly and safely.,8012
+40000,Tires Rotating,Switch the position of a car's tires to ensure even wear and tear.,3951
+60000,Tires Rotating,Switch the position of a car's tires to ensure even wear and tear.,3951
+80000,Tires Rotating,Switch the position of a car's tires to ensure even wear and tear.,3951

@@ -1,0 +1,120 @@
+%%[
+SET @interest = AttributeValue("Interest")
+IF EMPTY(@interest) THEN
+  SET @interest = "hardcover-fiction"
+ENDIF
+]%%
+
+<meta charset="UTF-8">
+<title>Using the Books API</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  .books {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .books img {
+    width: 120px;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .footer {
+    font-size: 14px;
+    color: #888;
+    text-align: left;
+    margin-top: 60px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }
+</style>
+
+<div class="container">
+  <img alt="Company Logo" src="https://ampscript30.com/wp-content/uploads/2023/04/ampscript30-logo.png">
+
+  <h1>Subscription Confirmed</h1>
+  <p>Thank you for confirming your email address. We will<br>
+     keep you up-to-date on the latest news.</p>
+
+  <p>Check out the latest top three bestsellers from New York Times:</p>
+
+  <div class="books">
+
+   <script runat="server">
+  Platform.Load("Core", "1.1.1");
+
+  var interest = Variable.GetValue("@interest");
+  var apiKey = "IAz8aXoEiRdqxCIIGxFXqn76h9LLrW9C";
+  var url = "https://api.nytimes.com/svc/books/v3/lists/current/" + interest + ".json?api-key=" + apiKey;
+
+  var response = Platform.Function.HTTPGet(url);
+  var obj = Platform.Function.ParseJSON(response);
+
+  if (obj && obj["results"] && obj["results"]["books"]) {
+    var books = obj["results"]["books"];
+
+    // Imagen
+    Platform.Variable.SetValue("@image1", books[0]["book_image"]);
+    Platform.Variable.SetValue("@image2", books[1]["book_image"]);
+    Platform.Variable.SetValue("@image3", books[2]["book_image"]);
+
+    // URL
+    Platform.Variable.SetValue("@url1", books[0]["amazon_product_url"]);
+    Platform.Variable.SetValue("@url2", books[1]["amazon_product_url"]);
+    Platform.Variable.SetValue("@url3", books[2]["amazon_product_url"]);
+  }
+</script>
+ 
+   <a href="%%=RedirectTo(@url1)=%%" target="_blank">
+    <img src="%%=v(@image1)=%%" alt="book_image">
+  </a>
+  <a href="%%=RedirectTo(@url2)=%%" target="_blank">
+    <img src="%%=v(@image2)=%%" alt="book_image">
+  </a>
+  <a href="%%=RedirectTo(@url3)=%%" target="_blank">
+    <img src="%%=v(@image3)=%%" alt="book_image">
+  </a>
+
+  </div>
+
+  <div class="footer">
+    Created for Gabriela Montilla © 2025
+  </div>
+</div>
